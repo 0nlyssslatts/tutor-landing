@@ -1,14 +1,17 @@
-import { Section, SectionTheme } from "@/components/Section/Section";
+import { Footer } from "@/sections/Footer/Footer";
+import { Header } from "@/sections/Header/Header";
+import { HowworksSection } from "@/sections/HowworksSection/HowworksSection";
+import { IntroSection } from "@/sections/IntroSection/IntroSection";
+import { WhoamiSection } from "@/sections/WhoamiSection/WhoamiSection";
 
 export default function Home() {
     return (
-        <div>
-            <Section theme={SectionTheme.Dark}>
-                <div>ergerg</div>
-            </Section>
-            <Section theme={SectionTheme.Rainbow}>
-                <div>ergerg</div>
-            </Section>
-        </div>
+        <>
+            <Header />
+            <IntroSection />
+            <WhoamiSection />
+            <HowworksSection />
+            <Footer />
+        </>
     );
 }
