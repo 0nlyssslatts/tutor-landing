@@ -1,0 +1,12 @@
+.Logo {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.Logo *:first-child {
+    font-weight: 500;
+    font-style: italic;
+}

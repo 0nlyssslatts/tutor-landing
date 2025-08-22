@@ -1,5 +1,6 @@
 .Section {
     height: 100vh;
+    padding: 0 var(--global-padding);
 }
 
 .light {

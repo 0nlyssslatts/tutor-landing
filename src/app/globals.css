@@ -1,5 +1,5 @@
 :root {
-    /*Colors*/
+    /* Colors */
     --white: #fafafa;
     --yellow: #ffae00;
     --orange: #e04300;
@@ -7,6 +7,10 @@
     --purple-dark: #2b0059;
     --black: #121212;
     --grey-dark: #1c1c1c;
+
+    /* Size */
+    --header-height: 100px;
+    --global-padding: 30px;
 }
 
 html,
@@ -16,8 +20,8 @@ body {
 }
 
 body {
-    color: var(--foreground);
-    background: var(--background);
+    color: var(--white);
+    background: var(--black);
     font-family: "Inter", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
