@@ -3,6 +3,7 @@
     padding: 0 var(--global-padding);
 }
 
+
 .light {
     background: var(--white);
     color: var(--black);
@@ -22,4 +23,11 @@
         var(--black) 250.96deg,
         var(--grey-dark) 360deg
     );
+}
+
+@media (max-width: 1000px) {
+    .Section {
+        padding: 0 var(--global-padding-mobile);
+    }
+    
 }

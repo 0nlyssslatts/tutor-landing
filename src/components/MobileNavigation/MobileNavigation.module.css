@@ -1,0 +1,9 @@
+.MobileNavigation{
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .MobileNavigation{
+        display: block;
+    }
+}

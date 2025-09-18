@@ -11,6 +11,8 @@
     /* Size */
     --header-height: 100px;
     --global-padding: 30px;
+    --global-padding-mobile: 10px;
+
 }
 
 html,

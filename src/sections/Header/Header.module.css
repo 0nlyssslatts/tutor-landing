@@ -11,3 +11,9 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 1000px) {
+    .Header{
+        padding: 0 var(--global-padding-mobile);
+    }
+}

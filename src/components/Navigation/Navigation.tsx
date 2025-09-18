@@ -2,12 +2,10 @@ import classNames from "classnames";
 import cls from "./Navigation.module.css";
 
 interface NavigationProps {
-    isMobile?: boolean;
     className?: string;
 }
 
 export const Navigation = ({
-    isMobile = false,
     className,
 }: NavigationProps) => {
     return (
@@ -15,7 +13,6 @@ export const Navigation = ({
             className={classNames(
                 cls.Navigation,
                 className,
-                isMobile && cls.mobile
             )}
         >
             <a href="#">Глaвная</a>

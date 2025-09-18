@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+
 }
 
 .mobile {
@@ -12,4 +13,10 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .Navigation {
+        display: none;
+    }
 }
