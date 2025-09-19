@@ -8,15 +8,16 @@ export enum SectionTheme {
 }
 
 interface SectionProps {
+    id: string;
     theme: SectionTheme;
     children: React.ReactNode;
     className?: string;
 }
 
 export const Section = (props: SectionProps) => {
-    const { theme, children, className } = props;
+    const {id, theme, children, className } = props;
     return (
-        <section className={classNames(cls.Section, cls[theme], className)}>
+        <section id={id} className={classNames(cls.Section, cls[theme], className)}>
             {children}
         </section>
     );

@@ -15,9 +15,9 @@ export const Navigation = ({
                 className,
             )}
         >
-            <a href="#">Глaвная</a>
-            <a href="#">Обо мне</a>
-            <a href="#">Стоимость</a>
+           <a href="#intro">Главная</a>
+           <a href="#whoami">Обо мне</a>
+            <a href="#price">Стоимость</a>
         </nav>
     );
 };

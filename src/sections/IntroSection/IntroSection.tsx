@@ -9,6 +9,7 @@ interface IntroSectionProps {
 export const IntroSection = ({ className }: IntroSectionProps) => {
     return (
         <Section
+            id="intro" 
             theme={SectionTheme.Rainbow}
             className={classNames(cls.IntroSection, [className])}
         >

@@ -9,6 +9,7 @@ interface HowworksSectionProps {
 export const HowworksSection = ({ className }: HowworksSectionProps) => {
     return (
         <Section
+            id="price" 
             theme={SectionTheme.Dark}
             className={classNames(cls.HowworksSection, [className])}
         >
