@@ -1,0 +1,163 @@
+.IntroTitle {
+    position: absolute;
+    right: 280px;
+}
+
+.h1 {
+    font-size: 80px;
+}
+.h2 {
+    font-size: 30px;
+    font-style: italic;
+}
+.span {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    background: linear-gradient(90deg, #ffb81d 17.31%, #e45906 100%);
+    box-shadow: 0px 4px 50px 0px #ffae0080;
+    transform: rotate(-6deg);
+}
+
+.Alert {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+}
+
+.Line {
+    position: absolute;
+    left: 160px;
+    bottom: -10px;
+    transform: rotate(-2deg);
+}
+.h1Section {
+    position: relative;
+}
+
+.h2Section {
+    position: relative;
+    bottom: -40px;
+}
+
+/* Large desktops */
+@media (max-width: 1800px) {
+    .IntroTitle {
+        right: 260px;
+    }
+}
+
+/* Large desktops */
+@media (max-width: 1600px) {
+    .IntroTitle {
+        right: 180px;
+    }
+}
+
+/* Large desktops */
+@media (max-width: 1400px) {
+    .IntroTitle {
+        right: 140px;
+    }
+    .h1 {
+        font-size: 70px;
+    }
+    .h2 {
+        font-size: 25px;
+    }
+    .span {
+        font-size: 25px;
+        right: -10px;
+    }
+    .Line {
+        left: 120px;
+    }
+}
+
+/* Desktops */
+@media (max-width: 1200px) {
+    .IntroTitle {
+        right: 120px;
+    }
+    .h1 {
+        font-size: 60px;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .span {
+        font-size: 20px;
+    }
+    .Line {
+        left: 80px;
+    }
+    .Alert {
+        transform: rotate(14deg);
+        right: -50px;
+    }
+}
+
+/* Small desktops / large tablets */
+@media (max-width: 1000px) {
+    .IntroTitle {
+        right: 90px;
+    }
+    .h1 {
+        font-size: 60px;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .span {
+        font-size: 20px;
+    }
+    .Line {
+        left: 70px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .IntroTitle {
+        right: 60px;
+    }
+    .h1 {
+        font-size: 40px;
+    }
+    .h2 {
+        font-size: 15px;
+    }
+    .span {
+        font-size: 15px;
+        right: -20px;
+        top: 10px;
+    }
+    .Line {
+        left: 60px;
+        width: 120px;
+    }
+    .Alert {
+        top: 10px;
+        right: -40px;
+    }
+}
+
+/* Large phones */
+@media (max-width: 600px) {
+    .IntroPhoto {
+        height: 320px;
+    }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+    .IntroPhoto {
+        height: 260px;
+    }
+}

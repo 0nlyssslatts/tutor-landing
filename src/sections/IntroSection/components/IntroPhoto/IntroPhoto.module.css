@@ -1,0 +1,50 @@
+.IntroPhoto {
+    position: absolute;
+    bottom: 0;
+    left: -40px;
+
+    height: 800px;
+    width: auto;
+}
+
+/* Large desktops */
+@media (max-width: 1400px) {
+    .IntroPhoto {
+        height: 700px;
+    }
+}
+
+/* Desktops */
+@media (max-width: 1200px) {
+    .IntroPhoto {
+        height: 640px;
+    }
+}
+
+/* Small desktops / large tablets */
+@media (max-width: 1000px) {
+    .IntroPhoto {
+        height: 540px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .IntroPhoto {
+        height: 500px;
+    }
+}
+
+/* Large phones */
+@media (max-width: 600px) {
+    .IntroPhoto {
+        height: 470px;
+    }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+    .IntroPhoto {
+        height: 460px;
+    }
+}

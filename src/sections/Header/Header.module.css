@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: var(--header-z);
 
     display: flex;
     flex-direction: row;
@@ -13,7 +14,7 @@
 }
 
 @media (max-width: 1000px) {
-    .Header{
+    .Header {
         padding: 0 var(--global-padding-mobile);
     }
 }

@@ -15,9 +15,12 @@ interface SectionProps {
 }
 
 export const Section = (props: SectionProps) => {
-    const {id, theme, children, className } = props;
+    const { id, theme, children, className } = props;
     return (
-        <section id={id} className={classNames(cls.Section, cls[theme], className)}>
+        <section
+            id={id}
+            className={classNames(cls.Section, cls[theme], className)}
+        >
             {children}
         </section>
     );
