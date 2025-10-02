@@ -48,3 +48,9 @@
         height: 460px;
     }
 }
+
+@media (max-height: 800px) {
+    .IntroPhoto {
+        height: 400px;
+    }
+}

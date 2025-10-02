@@ -114,6 +114,9 @@
     .h2 {
         font-size: 20px;
     }
+    .h2Section {
+        bottom: 0;
+    }
     .span {
         font-size: 20px;
     }

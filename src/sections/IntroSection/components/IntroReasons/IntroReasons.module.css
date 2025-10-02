@@ -82,7 +82,21 @@
         }
     }
     .IntroReasons {
-        bottom: 440px;
+        bottom: 460px;
+    }
+}
+
+@media (max-height: 800px) {
+    .IntroReasons {
+        bottom: 370px;
+    }
+    .Reasons {
+        height: 40px;
+        flex-wrap: wrap;
+        li {
+            font-size: 10px;
+            line-height: 80%;
+        }
     }
 }
 
